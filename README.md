@@ -5,6 +5,7 @@ The ```esp-idf-panic-decoder``` is a Python-based, open-source package that is p
 The main part is a script that parses ESP-IDF panic handler output (registers & stack dump), and then acts as a GDB server over stdin/stdout, presenting the information from the panic handler to GDB.
 This allows for generating backtraces out of raw stack dumps on architectures
 where backtracing on the target side is not possible.
+foo
 
 ## Contributing
 
